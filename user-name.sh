@@ -1,4 +1,3 @@
 #!/bin/sh
-echo "Привет"
-USER="Артем"
+USER=$(whoami)
 echo $USER
